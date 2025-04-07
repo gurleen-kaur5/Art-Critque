@@ -12,7 +12,7 @@ const upload = multer({ dest: 'uploads/' });
 app.use(cors());
 app.use(express.json());
 
-const genAI = new GoogleGenerativeAI("AIzaSyCCAx9ca3PAai2CH9E_YgA5qTu2TkcMaNw");
+const genAI = new GoogleGenerativeAI("AIzaSyCZQm3oYB8E51qTCS6n7GHeEzYtOIjD-Eo");
 
 // Endpoint to handle image + text critique
 app.post('/analyze', upload.single('image'), async (req, res) => {
