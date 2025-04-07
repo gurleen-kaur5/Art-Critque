@@ -1,0 +1,117 @@
+
+body {
+  background-color: #ece2d8 !important;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+.neon-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 80px;
+  color: #6c5b7b;
+  text-shadow: none;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #666;
+  margin: 20px auto 40px;
+  max-width: 700px;
+}
+
+.btn-start, .btn-option {
+  background: linear-gradient(90deg, #a8edea, #fed6e3);
+  border: none;
+  color: #333;
+  padding: 12px 30px;
+  margin: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+}
+
+.btn-start:hover, .btn-option:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 182, 193, 0.5);
+}
+
+.feature-box {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.chat-container {
+  display: none;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6c5b7b;
+}
+
+.chat-box {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 15px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.chat-input button {
+  background-color: #fed6e3;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #333;
+  font-weight: bold;
+}
+
+.back-btn {
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: 1px solid #6c5b7b;
+  color: #6c5b7b;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+.btn-upload{
+background-color: #f2cdd9 !important;
+color: #333 !important;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  
+  font-weight: bold !important;
+}
